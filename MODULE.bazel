@@ -1,0 +1,15 @@
+module(
+    name = "test_deps"
+)
+
+bazel_dep(
+    name = "googletest",
+    version = "1.15.2",
+    repo_name = "com_google_googletest",
+)
+
+bazel_dep(
+    name = "fuzztest",
+    version = "20241028.0",
+    repo_name = "com_google_fuzztest",
+)
