@@ -1,6 +1,6 @@
 
 
-cc_library(
+cc_test(
     name = "test_deps",
     srcs = ["test_deps.cc"],
     deps = [
